@@ -1,0 +1,7 @@
+#include <iostream>
+#include <window.h>
+
+void Ui_MainWindow::handleButton ( void ) {
+	std::cout << "Hi this is  MEeeeee!.\n";
+	return;
+}
