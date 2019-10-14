@@ -181,8 +181,8 @@ void Ui_MainWindow::setupUi(QMainWindow *MainWindow) {
         retranslateUi(MainWindow);
         //this->handleButton();
         //this->handleButton();
-
-        QObject::connect( pushButton , SIGNAL (clicked()), this , SLOT(handleButton())  ); 
+        connect_signals(MainWindow);
+        //QObject::connect( pushButton , SIGNAL (clicked()), this , SLOT(handleButton())  ); 
       } // setupU
 
 void Ui_MainWindow::retranslateUi(QMainWindow *MainWindow) {

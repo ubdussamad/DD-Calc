@@ -32,13 +32,15 @@ QT_BEGIN_NAMESPACE
  // }
  
 class Ui_MainWindow : public QMainWindow {
-Q_OBJECT
+Q_OBJECT  // Bhery importtant for paring signlas and slots andnother stuff too
+// Later macro instructs the moc compiler to replace these signals and other mechanisms
+// to compiler understandable stuff.
 
-private slots:
+public slots:
     void handleButton();
 
 public:
-    void connect_signals(void);
+    void connect_signals(QMainWindow *MainWindow);
     QWidget *centralwidget;
     QGridLayout *gridLayout_2;
     QLabel *label_2;

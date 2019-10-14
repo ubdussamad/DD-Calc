@@ -30,7 +30,7 @@ static const uint qt_meta_data_Ui_MainWindow[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      15,   14,   14,   14, 0x08,
+      15,   14,   14,   14, 0x0a,
 
        0        // eod
 };
