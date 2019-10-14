@@ -44,7 +44,8 @@ void Ui_MainWindow::connect_signals (QMainWindow *MainWindow) {
   QObject::connect(pushButton_14, SIGNAL(clicked()), this, SLOT(handleButton()) );
   QObject::connect(pushButton_15, SIGNAL(clicked()), this, SLOT(handleButton()) );
   QObject::connect(pushButton_17, SIGNAL(clicked()), this, SLOT(handleButton()) );
-  
+  pushButton_17->setStyleSheet(QString::fromUtf8("background-color: #d45f55;color:black;border-radius:6px;font-weight:100;\n"));
+
 
 }
 

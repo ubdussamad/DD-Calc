@@ -151,7 +151,6 @@ void Ui_MainWindow::setupUi(QMainWindow *MainWindow) {
 
         verticalLayout_3->addWidget(pushButton_14);
 
-
         horizontalLayout->addLayout(verticalLayout_3);
 
         verticalLayout_2 = new QVBoxLayout();
@@ -160,6 +159,7 @@ void Ui_MainWindow::setupUi(QMainWindow *MainWindow) {
         pushButton_17->setObjectName(QString::fromUtf8("pushButton_17"));
         pushButton_17->setMinimumSize(QSize(0, 127));
         pushButton_17->setMaximumSize(QSize(60, 152));
+        
 
         verticalLayout_2->addWidget(pushButton_17);
 
@@ -169,20 +169,12 @@ void Ui_MainWindow::setupUi(QMainWindow *MainWindow) {
         pushButton_13->setMaximumSize(QSize(60, 60));
 
         verticalLayout_2->addWidget(pushButton_13);
-
-
         horizontalLayout->addLayout(verticalLayout_2);
-
-
         gridLayout_2->addLayout(horizontalLayout, 2, 0, 1, 1);
-
         MainWindow->setCentralWidget(centralwidget);
-
         retranslateUi(MainWindow);
-        //this->handleButton();
-        //this->handleButton();
         connect_signals(MainWindow);
-        //QObject::connect( pushButton , SIGNAL (clicked()), this , SLOT(handleButton())  ); 
+
       } // setupU
 
 void Ui_MainWindow::retranslateUi(QMainWindow *MainWindow) {
