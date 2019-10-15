@@ -9,6 +9,8 @@ int main(int argc, char **argv)
 
  QApplication app (argc, argv);
 
+ app.setWindowIcon(QIcon("../resources/icons/icon_app.png"));
+
  QMainWindow window;
 
  Ui_MainWindow win;

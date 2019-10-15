@@ -157,11 +157,16 @@ void Ui_MainWindow::setupUi(QMainWindow *MainWindow) {
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         pushButton_17 = new QPushButton(centralwidget);
         pushButton_17->setObjectName(QString::fromUtf8("pushButton_17"));
-        pushButton_17->setMinimumSize(QSize(0, 127));
-        pushButton_17->setMaximumSize(QSize(60, 152));
+        pushButton_17->setMinimumSize(QSize(0, 0));
+        pushButton_17->setMaximumSize(QSize(60, 60));
         
+        pushButton_18 = new QPushButton(centralwidget);
+        pushButton_18->setObjectName(QString::fromUtf8("pushButton_18"));
+        pushButton_18->setMinimumSize(QSize(0, 0));
+        pushButton_18->setMaximumSize(QSize(60, 60));
 
         verticalLayout_2->addWidget(pushButton_17);
+        verticalLayout_2->addWidget(pushButton_18);
 
         pushButton_13 = new QPushButton(centralwidget);
         pushButton_13->setObjectName(QString::fromUtf8("pushButton_13"));
@@ -192,9 +197,10 @@ void Ui_MainWindow::retranslateUi(QMainWindow *MainWindow) {
         pushButton_9->setText(QApplication::translate("MainWindow", "9", 0, QApplication::UnicodeUTF8));
         pushButton_15->setText(QApplication::translate("MainWindow", "=", 0, QApplication::UnicodeUTF8));
         pushButton_10->setText(QApplication::translate("MainWindow", "0", 0, QApplication::UnicodeUTF8));
-        pushButton_12->setText(QApplication::translate("MainWindow", "-", 0, QApplication::UnicodeUTF8));
+        pushButton_12->setText(QApplication::translate("MainWindow", "<", 0, QApplication::UnicodeUTF8));
         pushButton_11->setText(QApplication::translate("MainWindow", "+", 0, QApplication::UnicodeUTF8));
         pushButton_14->setText(QApplication::translate("MainWindow", "/", 0, QApplication::UnicodeUTF8));
         pushButton_17->setText(QApplication::translate("MainWindow", "C", 0, QApplication::UnicodeUTF8));
-        pushButton_13->setText(QApplication::translate("MainWindow", "x", 0, QApplication::UnicodeUTF8));
+        pushButton_18->setText(QApplication::translate("MainWindow", "-", 0, QApplication::UnicodeUTF8));
+        pushButton_13->setText(QApplication::translate("MainWindow", "*", 0, QApplication::UnicodeUTF8));
     } // retranslateUi

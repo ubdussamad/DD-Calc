@@ -65,6 +65,7 @@ public:
     QPushButton *pushButton_14;
     QVBoxLayout *verticalLayout_2;
     QPushButton *pushButton_17;
+    QPushButton *pushButton_18;
     QPushButton *pushButton_13;
 
     void setupUi(QMainWindow *MainWindow);
