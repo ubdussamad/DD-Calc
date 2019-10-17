@@ -32,7 +32,10 @@ std::string calc::push( std::string word ) {
 std::string calc::parse (void) {
 	// Process buffer here
 	// Flawed LOGIC
-	// Please Update 
+	// Please Update
+  if (buffer == "") {
+    return("");
+  }
 	std::string::size_type sz;
 
 	long long int result_main = 0;
